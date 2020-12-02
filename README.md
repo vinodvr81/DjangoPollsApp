@@ -12,3 +12,9 @@ ex: django-admin startproject <mysite
 python manage.py startapp <app name>
 
 ex: python manage.py startapp polls
+
+for any db tables that needs to be added
+
+[4]. python manage.py makemigrations
+
+[5]. python manage.py migrate
