@@ -30,3 +30,7 @@ ex: python manage.py check;
 [7]. To play around with the free API, Django gives shell. To start shell we need to use below command:
 
 ex: python manage.py shell
+
+[8]  To create a user who can login to the admin site.
+
+ex: python manage.py createsuperuser
