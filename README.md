@@ -15,6 +15,18 @@ ex: python manage.py startapp polls
 
 for any db tables that needs to be added
 
-[4]. python manage.py makemigrations
+[4]. python manage.py makemigrations <app name>
 
-[5]. python manage.py migrate
+ex: python manage.py makemigrations polls
+
+[5]. To run migrate so as to create those model tables in your database: below is the command
+
+python manage.py migrate
+
+[6]. To check for any problems in the project
+
+ex: python manage.py check;
+
+[7]. To play around with the free API, Django gives shell. To start shell we need to use below command:
+
+ex: python manage.py shell
