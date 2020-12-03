@@ -34,3 +34,9 @@ ex: python manage.py shell
 [8]  To create a user who can login to the admin site.
 
 ex: python manage.py createsuperuser
+
+[9] To run test cases:
+
+python manage.py test <App Name>
+
+ex: python manage.py test polls
